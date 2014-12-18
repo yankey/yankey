@@ -8,3 +8,12 @@ Synchronous : 동기식 전송  //씽커너스
 
 Asynchronous : 비동기식 전송  //에이씽커너스
 데이터 통신에서 정보의 송신 및 수신을 위해 사용되는 클록이 상대국과 독립적으로 운용되면서 송신될 정보가 있을 때마다 정보의 시작/정지(start-stop)를 수신 측에 알려 주는 정보 전송 형태. 이 방식은 다양한 정보 속도를 사용할 수는 있으나 전송 성능이 나쁘고 전송 대역이 커지는 단점이 있다.
+
+define 함수는 세 가지 파라미터로 구성
+id는 해당 모듈의 아이디이며 dependencies는 이 모듈에서 의존하는 모듈들의 아이디이다. 마지막으로 factory는 함수 또는 오브젝트로서 실제로 이 모듈의 로직이 되는 부분이다.
+define(id?, dependencies?, factory);
+
+$(this).index(".btn_cbType"); //연속되지 않은 elememnt index
+
+document.querySelector();  //익스8 이상
+https://developer.mozilla.org/en-US/docs/Web/API/Document.height
