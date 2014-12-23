@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lank="ko" ng-app>
     <head>
         <title>My Sample Project</title>
         <!-- data-main attribute tells require.js to load
              scripts/main.js after require.js loads. -->
-        <link href="./jquery.mCustomScrollbar.css" rel="stylesheet" />
-        <script data-main="scripts/main" src="scripts/require.js"></script>
+        <link href="./jquery.mCustomScrollbar.css" rel="stylesheet" />  
     </head>
-    <body>
+    <body ng-controller="jin"> 
+    	
+        <div>{{aaa}}</div>
         <div style="width:200px; height:100px; overflow:hidden; border:1px solid red;">
         	<h1>My Sample Project</h1>
         	<h1>My Sample Project</h1>
@@ -29,6 +30,7 @@
         	<h1>My Sample Project</h1>
         	
         </div>
-        
+        <script id="requirejs" data-main="scripts/main01" src="scripts/require.js"></script>
+       
     </body>
 </html>

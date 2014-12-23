@@ -46,13 +46,8 @@ requirejs.config({
 	}
 });
 
-define(['scroll'],function(){
-	// 이 콜백 함수는 위에 명시된 디펜던시들이 다 로드된 뒤에 호출
-	// 주의해야할 것은, 디펜던시 로드 완료 시점이 페이지가 완전히 로드되기 전에 일수도 있다는 사실
-	
-	//페이지가 완전히 로드된 뒤에 실행
-	$(function(){
-		$("div").mCustomScrollbar();   // 스크롤바생성] 
-		//alert($("h1").text());
-	});
+define(['angular'],function(){  
+	function jin($scope){
+		$scope.aaa = 'test';
+	}
 }); 

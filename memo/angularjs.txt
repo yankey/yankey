@@ -18,7 +18,7 @@ ng-click
 ng-model
 ng-repeat
 
-
+factory - 서비스를 공유할때 사용
 $routeProvider
 
 provider - 제공자 // 그 이름처럼 서비스 객체를 제공하는 역할을 하는 객체를 의미한다 
@@ -40,4 +40,8 @@ angular.module( "xxx" ).service( "serviceName", function( ... ){
 	this.foo = ...;
 	this.bar = ...;
 }); 
+
+var app = angular.module("myApp", []);
+app.factory("factoryName", funcName);
+app.controller("controllerName", funcName);
 

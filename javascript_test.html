@@ -6,33 +6,13 @@
 <script src="./scripts/lib/angular.min.js"></script>
 
 </head>
-<body ng-controller="todoController"> 
-	<ul>
-		<li ng-repeat="todo in todos">
-			<input type="checkbox" checked="{{todo.checked}}" />
-			{{todo.work}}
-		</li>
-	</ul>
+<body ng-controller="controller01"> 
+	<div>{{yankey}}</div>
 	
-	<input type="text" ng-model="newTodo" />
-	<input type="button" value="add" ng-click="addTodo()" />
-	
-<script> 
-function todoController($scope, $http){
-	$http.get('http://localhost:8080/test/todo.json').success(function(data){
-		$scope.todos = data;
-	});
-	$scope.addTodo = function(){
-		if($scope.newTodo){
-			$scope.tods.push({
-				"checked":"", "work": $scope.newTodo
-			});
-			$scope.newTodo = null;
-		}else{
-			alert("입력하세요.");
-		}
-	}
-}
+<script>   
+function controller01($scope){
+	$scope.yankey = 'test';
+} 
 </script> 
 </body>
 </html>
