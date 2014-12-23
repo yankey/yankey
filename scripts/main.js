@@ -28,6 +28,7 @@ requirejs.config({
 	paths:{
 		'jquery':'./lib/jquery',
 		'scroll':'./lib/jquery.scroll', 
+		'angular':'./lib/angular.min'
 	},
 	
 	/*
@@ -37,6 +38,10 @@ requirejs.config({
 		'scroll':{
 			deps:['jquery'], // angular가 로드되기 전에 jquery가 로드 되어야 한다.
 			exports:'scroll' //로드된 angular 라이브러리는 angular라는 이름의 객체로 사용할 수 있게 해준다.
+		},
+		'angular':{
+			deps:['jquery'], 
+			exports:'angular' 
 		}
 	}
 });

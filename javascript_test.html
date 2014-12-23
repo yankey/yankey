@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>javascript TEST</title> 
-    </head>
-    <body>
-   	<h1>g_g</h1>     
-   	<script>
-   	var string = document.URL;
-   	var curElement = document.activeElement;
-   	var color = document.querySelector("h1");
-   	alert(document.height);
-   	</script>
-    </body>
+<html lank="ko" ng-app>
+<head>
+<title>javascript TEST</title>
+<!-- <script src="./scripts/lib/jquery.js"></script> -->
+<script src="./scripts/lib/angular.min.js"></script>
+
+</head>
+<body ng-controller="todoController"> 
+	<ul>
+		<li ng-repeat="todo in todos">
+			<input type="checkbox" checked="{{todo.checked}}" />
+			{{todo.work}}
+		</li>
+	</ul>
+	
+	<input type="text" ng-model="newTodo" />
+	<input type="button" value="add" ng-click="addTodo()" />
+	
+<script> 
+function todoController($scope, $http){
+	$http.get('http://localhost:8080/test/todo.json').success(function(data){
+		$scope.todos = data;
+	});
+	$scope.addTodo = function(){
+		if($scope.newTodo){
+			$scope.tods.push({
+				"checked":"", "work": $scope.newTodo
+			});
+			$scope.newTodo = null;
+		}else{
+			alert("입력하세요.");
+		}
+	}
+}
+</script> 
+</body>
 </html>

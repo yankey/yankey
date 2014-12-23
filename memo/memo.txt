@@ -17,3 +17,12 @@ $(this).index(".btn_cbType"); //연속되지 않은 elememnt index
 
 document.querySelector();  //익스8 이상
 https://developer.mozilla.org/en-US/docs/Web/API/Document.height
+http://www.hanbit.co.kr/preview/2641/sample_ebook.pdf
+spa // 단일,싱글 , 상태유지, 투웨이바인딩
+
+directive(드렉티브) - 지시어
+
+MVC 
+
+grunt
+

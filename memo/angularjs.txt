@@ -1,0 +1,43 @@
+http://w3devlabs.net/wp/?p=15
+
+ng-app 지시어
+ng-controller
+ng-init="quantity=3;cost=5"
+입력 / ng-model="a" > 출력 1 / ng-bind="a" 또는 출력2 / {{a}}
+ng-repeat="x in names" // 반복 x in 총갯수
+$http 는 웹 서버로부터 데이터를 판독하기위한 핵심 서비스이다.
+$http.get(url).success(function(response){
+	$scope.names = response;
+});
+$scope
+
+ng-disabled
+ng-show
+ng-hide
+ng-click
+ng-model
+ng-repeat
+
+
+$routeProvider
+
+provider - 제공자 // 그 이름처럼 서비스 객체를 제공하는 역할을 하는 객체를 의미한다 
+
+angular.module("xxx").provider("serviceName", function( ... ){ 
+	this.$get = function()
+	{
+	    ...
+	    return serviceObject;
+	};
+});   
+factory - factory를 간단히 설명하면, 서비스 객체를 제공하는 함수 정도가 되겠다.
+angular.module( "xxx" ).factory( "serviceName", function( ... ){
+	....
+	return serviceObject;
+});   
+service
+angular.module( "xxx" ).service( "serviceName", function( ... ){
+	this.foo = ...;
+	this.bar = ...;
+}); 
+
