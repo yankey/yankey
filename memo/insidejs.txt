@@ -22,3 +22,12 @@ var foo = {
 function Foo(age){
 	this.age = "35";
 }
+
+for in문
+delete 연산자  - 객체 프로퍼티 삭제 ex)delete foo.age;
+속성만 삭제 가능
+
+리터럴 - 공간에 저장되는 값
+부모객체(프로토타입 prototype) - 상속 개념과 같이 부모 객체의 프로퍼티를 마치 자신의 것처럼 쓸수있는것
+객체리터럴 - 중괄호{} 표기법
+배열리터럴 - 대괄호[] 사용
