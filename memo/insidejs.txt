@@ -1,3 +1,11 @@
+데이터타입
+기본타입
+- 문자열(string), 숫자(number), 블린(boolean), undefined, null
+
+참조타입
+- 객체 ( 배열, 함수, 정규표현식 ) 
+
+
 객체 - 키와 값을 가지고 있는 프로퍼티 영역(컨테이너 container)
 hash - 하나의 키와 값을 가지고 있는것
 hashmap - hash 모음격
