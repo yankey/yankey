@@ -1,0 +1,16 @@
+객체 - 키와 값을 가지고 있는 프로퍼티 영역(컨테이너 container)
+hash - 하나의 키와 값을 가지고 있는것
+hashmap - hash 모음격
+
+객체 사용방법
+1. 내장 생성방법 Object()
+var foo = new Object();
+foo.age = "35";
+2. 리터럴 방식(표현방식)
+var foo = {
+	age = "35";
+}
+3. 생성자 함수 사용
+function Foo(age){
+	this.age = "35";
+}
