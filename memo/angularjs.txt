@@ -1,6 +1,6 @@
 http://w3devlabs.net/wp/?p=15
 
-ng-app 지시어
+ng-app 지시어 directive
 ng-controller
 ng-init="quantity=3;cost=5"
 입력 / ng-model="a" > 출력 1 / ng-bind="a" 또는 출력2 / {{a}}

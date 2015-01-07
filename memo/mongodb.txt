@@ -1,0 +1,62 @@
+http://mobicon.tistory.com/224
+http://blog.outsider.ne.kr/category/node.js?page=6
+http://www.nodebeginner.org/index-kr.html(The Node Beginner Book)
+
+전역 옵션 -g
+
+
+페이지라우팅(routing) - 요청받은 URL 과 뷰(View)를 매칭시키는 것 / 실제로 라우팅에 사용되는 정보는 호스트이름을 제외하고 나머지 경로(Path)를 표시한 문자 
+
+
+
+jade
+Mixin
+믹스인은 마치 함수를 사용하는 것처럼 반복되는 패턴을 가진 템플릿을 믹스인으로 정의해서 사용할 수 있고 아래와 같은 형식으로 선언할 수 있습니다.
+// example.jade
+mixin jquery(version)
+  script(src='http://code.jquery.com/jquery-#{version}.min.js', type='text/javascript')
+ 
+mixin input(type, id, name, class, text)
+  label(for=name) #{text}
+  input(type=type, id='input-#{id}', name=name, class=class)
+ 
+mixin input('text', 'test', 'test', 'textbox', '이름') 
+mixin jquery('1.5.2')
+
+#{}
+
+Include
+include common/util
+
+npm(Node Packaged Modules)
+Node.js의 가장 큰 특징을 꼽으라면 단일 스레드 모델과 Non-blocking I/O입니다.
+이벤트 드리븐
+
+mongo	c:\ 디비는 여기에 설치
+express에서 install mongojs 설치
+mongodb.org	app.js에 콘솔찍기
+c:\ 다운	var db = require('mongojs').connect('node', ['yang']);
+data 폴더에 넣고 db폴더 추가생성	  db.yang.find(function(error, data){
+cmd창에서 data/bin	    console.log(data);
+cmd창에서 mongod 실행	  });
+cmd창에서 data/bin	
+cmd창에서 mongo	
+
+
+grunt
+1.Grunt를 선택하게 된 주된 이유는 스캐폴딩(건축물의 뼈대?높은 곳에서 일할 수 있도록 설치하는 임시가설물)
+2.Grunt는 자바스크립트용 빌드도구
+3.Node.js로 만들어졌고 npm에 등록이 되어 있으므로 일반적인 Node.js 커맨드라인 도구처럼 글로벌로 설치
+4.Grunt는 init 명령어를 통한 템플릿기능으로 프로젝트를 시작하기 위한 스캐폴딩 파일과 구조를 자동으로 생성
+
+Bower를 이용한 프로젝트 구성 
+1.bower는 트위터에서 만든 웹을 위한 패키지 관리 도구다
+2.즉, 제이쿼리, AngularJS, Require.js 등과 같이 자바스크립트 라이브러리를 하나의 패키지로 보고 이러한 패키지를 쉽게 추가하고 삭제할 수 있게 해준다 
+
+
+
+
+Apache같은 웹서버들은 모든 요청마다 시스템 쓰레드를 생성하는 쓰레드 기반이고 
+Apache와 NGINX를 비교한 그래프를 보면 쓰레드기반인 Apache는 요청이 늘어날수록 메모리가 증가하지만 NGINX는 직선을 유지하는 것을 볼 수가 있습니다. 이는 NGINX는 Event Loop를 사용하기 때문입니다.
+
+Vendor Prefix - 벤더프리픽스
