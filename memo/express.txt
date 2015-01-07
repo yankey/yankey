@@ -1,0 +1,11 @@
+
+파일추가하기 
+
+1. app.js get(페이지명)추가
+app.get('/product', function(request, response){  //파일명 product 
+	response.render('product',{
+		title:'test1'
+	});
+});
+
+2. product.jade 생성
