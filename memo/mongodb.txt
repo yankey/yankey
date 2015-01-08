@@ -1,7 +1,40 @@
-http://mobicon.tistory.com/224
-http://blog.outsider.ne.kr/category/node.js?page=6
-http://www.nodebeginner.org/index-kr.html(The Node Beginner Book)
+몽고설치
+1. http://www.mongodb.org/downloads zip 파일 다운로드후설치 (http://gyuha.tistory.com/470 참고)
 
+압축파일 C:\mongodb 이동
+
+/*********************폴더생성
+mongodb/data
+mongodb/logs
+/*********************
+
+cmd 실행
+C:\mongodb\bin\mongod.exe --dbpath C:\mongodb\data
+
+/*********************  mongodb/mongod.cfg 파일생성
+# 데이터베이스 폴더
+dbpath = C:\mongodb\data
+#mongdb 포트
+port = 27017
+#로그파일
+logpath = C:\mongodb\logs\mongo.log
+#웹 관리 사용
+rest = true
+/************************
+
+cmd 실행
+C:\mongodb\bin\mongod.exe -f C:\mongodb\mongod.cfg -install   //서비스등록
+
+윈도우 서비스 > mongodb > 시작후 > http://127.0.0.1:28017/ 접속
+
+cmd 실행
+C:\mongodb\bin\mongod.exe -f C:\mongodb\mongod.cfg -remove    //서비스제거
+
+use db
+show collections
+db.board.find()
+
+2. mongodb GUI툴 http://robomongo.org/
 전역 옵션 -g
 
 
