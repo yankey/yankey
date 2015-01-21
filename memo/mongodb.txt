@@ -12,6 +12,7 @@ cmd 실행
 C:\mongodb\bin\mongod.exe --dbpath C:\mongodb\data
 
 /*********************  mongodb/mongod.cfg 파일생성
+-- 파일내용 -- 
 # 데이터베이스 폴더
 dbpath = C:\mongodb\data
 #mongdb 포트

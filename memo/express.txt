@@ -1,3 +1,4 @@
+http://uiandwe.tistory.com/category/Node.js
 
 파일추가하기 
 
@@ -9,3 +10,7 @@ app.get('/product', function(request, response){  //파일명 product
 });
 
 2. product.jade 생성
+
+npm install nodemon
+express 로 코딩을 하다보면 뭐 변경될 때마다 Ctrl-c 누르고 '화살표 위'를 누르는 횟수가 비약적으로 많아집니다.
+nodemon 은 js 파일이 변경될 때마다 자동으로 파일을 재구동해주는 편리한 툴입니다

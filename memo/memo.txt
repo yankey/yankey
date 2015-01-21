@@ -1,3 +1,5 @@
+http://onhax.net/powercmd-2-2/  powercmd
+
 http://requirejs.org/
 
 <script data-main="js/main.js" src="libs/require/require.js"></script>
