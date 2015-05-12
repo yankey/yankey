@@ -1,0 +1,7 @@
+var http = require('http');
+var fs = require('fs');
+fs.exists(); //확인
+fs.open(); //생성
+fs.rename(); //이름변경
+fs.unlink(); //삭제
+fs.readFile(); //읽기
