@@ -1,10 +1,10 @@
-http://hanpama.appspot.com/REQUIREJS_API
+http://hanpama.appspot.com/REQUIREJS_API                    zzzzzzzzzzzzzzzzzzzz
 http://blog.javarouka.me/
-¹«¾ð°¡¸¦ Æ÷ÇÔ½ÃÅ°°í ½Í´Ù¸é, ±×¶§¸¶´Ù require ÇÔ¼ö¸¦ »ç¿ëÇØ¼­ °¡Á®¿Â´Ù´Â Áö±ØÈ÷ ´Ü¼øÇÑ ±¸Á¶
-require ÇÔ¼ö·Î ¹«¾ð°¡¸¦ ·ÎµåÇÏ¸é, ·ÎµåÇÏ±âÀü¿¡ °Å±â¿¡ Á¾¼Ó¼ºÀÌ ÀÖ´ÂÁö ÆÇº°ÇÑµÚ¿¡ Á¾¼Ó¼ºÀÌ ÀÖ´Â °ÍµéÀ» ¸ÕÀú °¡Á®¿Â ÈÄ
-require·Î ·ÎµåÇÏ·Ä´Â °ÍÀ» ºÒ·¯¿Â´Ù. ±× ÈÄ¿¡ ÄÝ¹éÇÔ¼ö°¡ ½ÇÇàµÇ´Â °Í
-ÀÇÁ¸¼º
-¸ðµâÈ­
+ë¬´ì–¸ê°€ë¥¼ í¬í•¨ì‹œí‚¤ê³  ì‹¶ë‹¤ë©´, ê·¸ë•Œë§ˆë‹¤ require í•¨ìˆ˜ë¥¼ ì‚¬ìš©í•´ì„œ ê°€ì ¸ì˜¨ë‹¤ëŠ” ì§€ê·¹ížˆ ë‹¨ìˆœí•œ êµ¬ì¡°
+require í•¨ìˆ˜ë¡œ ë¬´ì–¸ê°€ë¥¼ ë¡œë“œí•˜ë©´, ë¡œë“œí•˜ê¸°ì „ì— ê±°ê¸°ì— ì¢…ì†ì„±ì´ ìžˆëŠ”ì§€ íŒë³„í•œë’¤ì— ì¢…ì†ì„±ì´ ìžˆëŠ” ê²ƒë“¤ì„ ë¨¼ì € ê°€ì ¸ì˜¨ í›„
+requireë¡œ ë¡œë“œí•˜ë ¬ëŠ” ê²ƒì„ ë¶ˆëŸ¬ì˜¨ë‹¤. ê·¸ í›„ì— ì½œë°±í•¨ìˆ˜ê°€ ì‹¤í–‰ë˜ëŠ” ê²ƒ
+ì˜ì¡´ì„±
+ëª¨ë“ˆí™”
 <script data-main="js/app" src="js/require.js"></script>
 requirejs.config({
 	baseUrl:,
@@ -24,46 +24,46 @@ define(function(){
 		alert(message);
 	}
 });
-1. var alerter = require("alerter");  // define ¸ðµâ »ç¿ëÇÏ±â
-2. require(['alerter'], function(){   // define ¸ðµâ »ç¿ëÇÏ±â
+1. var alerter = require("alerter");  // define ëª¨ë“ˆ ì‚¬ìš©í•˜ê¸°
+2. require(['alerter'], function(){   // define ëª¨ë“ˆ ì‚¬ìš©í•˜ê¸°
    });
    
    
-¿Ö ¸ðµâÈ­ÀÏ±î
-website ´Â web application À¸·Î º¯È­ Áß
-Àü¿ª °ø°£ ¿À¿° À§Çèµµ°¡ Áõ°¡Çß´Ù
-½ºÅ©¸³Æ® ÄÚµå º¹Àâµµ°¡ »ó½ÂÇß´Ù
-½ºÅ©¸³Æ®°£ ÀÇÁ¸¼ºÀ» Á¤ÀÇÇÏ´Â ¹æ¹ýÀÌ ¾ø´Ù
-½ºÅ©¸³Æ®ÀÇ °øÅëÀûÀÎ ¹èÆ÷ ¹æ¹ýÀÌ ¾ø´Ù
+ì™œ ëª¨ë“ˆí™”ì¼ê¹Œ
+website ëŠ” web application ìœ¼ë¡œ ë³€í™” ì¤‘
+ì „ì—­ ê³µê°„ ì˜¤ì—¼ ìœ„í—˜ë„ê°€ ì¦ê°€í–ˆë‹¤
+ìŠ¤í¬ë¦½íŠ¸ ì½”ë“œ ë³µìž¡ë„ê°€ ìƒìŠ¹í–ˆë‹¤
+ìŠ¤í¬ë¦½íŠ¸ê°„ ì˜ì¡´ì„±ì„ ì •ì˜í•˜ëŠ” ë°©ë²•ì´ ì—†ë‹¤
+ìŠ¤í¬ë¦½íŠ¸ì˜ ê³µí†µì ì¸ ë°°í¬ ë°©ë²•ì´ ì—†ë‹¤
 
 RequireJS
-AMD Ç¥ÁØ¿¡ CommonJS¿Í È£È¯
-¸ð´ø ºê¶ó¿ìÀú¿¡¼­ ¹Ù·Î »ç¿ë°¡´É
-¸ðµâ ºñµ¿±â ·Îµù
-µÎ Àü¿ªÇÔ¼ö¸¦ ÅëÇÏ¿© ¸ðµâ ¹× ÀÇÁ¸¼º Á¤ÀÇ
+AMD í‘œì¤€ì— CommonJSì™€ í˜¸í™˜
+ëª¨ë˜ ë¸Œë¼ìš°ì €ì—ì„œ ë°”ë¡œ ì‚¬ìš©ê°€ëŠ¥
+ëª¨ë“ˆ ë¹„ë™ê¸° ë¡œë”©
+ë‘ ì „ì—­í•¨ìˆ˜ë¥¼ í†µí•˜ì—¬ ëª¨ë“ˆ ë° ì˜ì¡´ì„± ì •ì˜
 define
 require(js)
-¼³Ä¡´Â ±×³É include.
-data-main ¼Ó¼ºÀ¸·Î ¿£Æ®¸® ÁöÁ¤°¡´É
+ì„¤ì¹˜ëŠ” ê·¸ëƒ¥ include.
+data-main ì†ì„±ìœ¼ë¡œ ì—”íŠ¸ë¦¬ ì§€ì •ê°€ëŠ¥
 <script data-main="main" src="lib/require.js"></script>
 
-define ¸ðµâ Á¤ÀÇ
-¸ðµâÀÌ¸§(¿É¼Ç), ÀÇÁ¸¼º(¿É¼Ç), ¸ðµâ »ý¼º ÇÔ¼ö|°´Ã¼(ÇÊ¼ö)
-ÀÇÁ¸¼º ¸ðµâÀÌ ÀüºÎ ·Îµå°¡ ¿Ï·áµÇ¾î¾ß ÆÑÅä¸® ÇÔ¼ö°¡ ÄÝ¹éµÊ.
-ÀÇÁ¸¼º ¹®ÀÚ¿­ÀÌ ¸ðµâÀÇ PATH. '.js' ´Â »ý·«
-ÆÑÅä¸® ÇÔ¼öÀÇ »ý¼º°ªÀº ÇÔ¼ö°¡ Çã¿ëÇÏ´Â ¹ÝÈ¯°ªÀÌ¸é ¹¹µçÁö °¡´É
-¾ÆÀÌµð´Â »ý·« °¡´ÉÇÏ°í ÀÇÁ¸¼ºÀ» »ý·«ÇÏ¸é ÀÇÁ¸¼º ¾ø´Â ¸ðµâÀÌ µÈ´Ù.
+define ëª¨ë“ˆ ì •ì˜
+ëª¨ë“ˆì´ë¦„(ì˜µì…˜), ì˜ì¡´ì„±(ì˜µì…˜), ëª¨ë“ˆ ìƒì„± í•¨ìˆ˜|ê°ì²´(í•„ìˆ˜)
+ì˜ì¡´ì„± ëª¨ë“ˆì´ ì „ë¶€ ë¡œë“œê°€ ì™„ë£Œë˜ì–´ì•¼ íŒ©í† ë¦¬ í•¨ìˆ˜ê°€ ì½œë°±ë¨.
+ì˜ì¡´ì„± ë¬¸ìžì—´ì´ ëª¨ë“ˆì˜ PATH. '.js' ëŠ” ìƒëžµ
+íŒ©í† ë¦¬ í•¨ìˆ˜ì˜ ìƒì„±ê°’ì€ í•¨ìˆ˜ê°€ í—ˆìš©í•˜ëŠ” ë°˜í™˜ê°’ì´ë©´ ë­ë“ ì§€ ê°€ëŠ¥
+ì•„ì´ë””ëŠ” ìƒëžµ ê°€ëŠ¥í•˜ê³  ì˜ì¡´ì„±ì„ ìƒëžµí•˜ë©´ ì˜ì¡´ì„± ì—†ëŠ” ëª¨ë“ˆì´ ëœë‹¤.
 
-require ÀÇÁ¸¼º Á¤ÀÇ
-define°ú´Â ´Ù¸£°Ô ½ÇÇà ÄÚµåÀÇ ¸ðµâ ÀÇÁ¸¼º¸¸ Á¤ÀÇÇÔ
-ÀÇÁ¸¼º ¹è¿­ÀÌ ÇÊ¼ö
-µÚÀÇ ÇÔ¼ö´Â ÆÑÅä¸®°¡ ¾Æ´Ñ ½ÇÇà ÄÚµå
-ÀÌ ¿ÜÀÇ ºÎºÐÀº define°ú µ¿ÀÏ
+require ì˜ì¡´ì„± ì •ì˜
+defineê³¼ëŠ” ë‹¤ë¥´ê²Œ ì‹¤í–‰ ì½”ë“œì˜ ëª¨ë“ˆ ì˜ì¡´ì„±ë§Œ ì •ì˜í•¨
+ì˜ì¡´ì„± ë°°ì—´ì´ í•„ìˆ˜
+ë’¤ì˜ í•¨ìˆ˜ëŠ” íŒ©í† ë¦¬ê°€ ì•„ë‹Œ ì‹¤í–‰ ì½”ë“œ
+ì´ ì™¸ì˜ ë¶€ë¶„ì€ defineê³¼ ë™ì¼
 
-RequireJSÀÇ Àû¿ë
-AMD ±Ô°Ý¿¡ ¸Â´Â ÄÚµå·Î ¸ðµâ ÀÛ¼º
-Å¬·ÎÀú¿¡ ÀÍ¼÷ÇÒ ¼ö·Ï ¸ðµâ ÄÚµå ÀÛ¼ºÀÌ ¼ö¿ù
-shim ¿É¼Ç µîÀ» ÅëÇØ ±âÁ¸ ½ºÅ©¸³Æ® ÄÚµå ÀçÈ°¿ë
+RequireJSì˜ ì ìš©
+AMD ê·œê²©ì— ë§žëŠ” ì½”ë“œë¡œ ëª¨ë“ˆ ìž‘ì„±
+í´ë¡œì €ì— ìµìˆ™í•  ìˆ˜ë¡ ëª¨ë“ˆ ì½”ë“œ ìž‘ì„±ì´ ìˆ˜ì›”
+shim ì˜µì…˜ ë“±ì„ í†µí•´ ê¸°ì¡´ ìŠ¤í¬ë¦½íŠ¸ ì½”ë“œ ìž¬í™œìš©
 
 
    
